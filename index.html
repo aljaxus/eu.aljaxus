@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+	<!-- START META TAGS -->
+	<title>Aljaxus - Aljaž Starc</title>
+	<!-- <base href="https://aljaxus.eu/" /> -->
+
+	<meta charset="utf-8">
+	<meta name="author" content="aljaxus">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+
+	<link rel="apple-touch-icon" href="./img/icon_logo_16px.png" />
+	<link rel="apple-touch-icon" sizes="32x32" href="./img/icon_logo_32px.png" />
+	<link rel="apple-touch-icon" sizes="64x64" href="./img/icon_logo_64px.png" />
+	<link rel="apple-touch-icon" sizes="256x256" href="./img/icon_logo_256px.png" />
+	<link rel="icon" type="image/png" sizes="16x16" href="./img/icon_logo_16px.png" />
+	<link rel="icon" type="image/png" sizes="32x32" href="./img/icon_logo_32px.png" />
+	<link rel="icon" type="image/png" sizes="64x64" href="./img/icon_logo_64px.png" />
+	<link rel="icon" type="image/png" sizes="256x256" href="./img/icon_logo_256px.png" />
+	<link rel="manifest" href="/img/icon_logo_manifest.json" />
+	<!-- END META TAGS -->
+	<!-- START SHARING TAGS -->
+	<meta property="og:site_name" content="aljaxus.eu">
+	<meta property="og:url" content="https://aljaxus.eu/">
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="aljaxus.eu">
+	<meta property="og:image" content="./img/icon_logo_256px.png">
+
+	<meta name="twitter:url" content="https://aljaxus.eu/">
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:title" content="aljaxus.eu">
+	<meta name="twitter:image" content="./img/icon_logo_256px.png">
+	<!-- END SHARING TAGS -->
+
+
+	<!-- START PRELOADER -->
+	<style media="all">body{transition:opacity 0.6s;background:linear-gradient(110deg, #000000, #1c1c21, #445244) !important}body:not(.loaded){opacity:0 !important;overflow:hidden !important}</style>
+	<script type="text/javascript">window.onload=function(e){console.log('***************************************************');console.log('Preloader-all content is loaded!');document.getElementsByTagName("body")[0].style.opacity='1';document.getElementsByTagName("body")[0].className+=' loaded'};</script>
+	<!-- END PRELOADER -->
+
+	<!-- START SCRIPTS -->
+	<script charset="utf-8" src="./js/particles.min.js"></script>
+	<script charset="utf-8" src="./js/master.js"></script>
+	<!-- END SCRIPTS -->
+	<!-- START STYLES -->
+	<link rel="stylesheet" href="./css/master.css">
+	<!-- END STYLES -->
+
+</head>
+<body>
+	<nav>
+	  	<div class="container">
+	    	<a href="javascript:void(0);"><img class="logo" src="./img/aljaxus.png"></a>
+	  	</div>
+	</nav>
+	<main>
+	  	<div id="particles-js"></div>
+		<div id="aljazs-image">
+			<img class="logo" src="./img/aljazstarc.jpg">
+		</div>
+	  	<div class="wrapper">
+	    	<div class="container">
+				<div class="content">
+					<h1 class="color-white">A junior developer specializing in progressive web technologies</h1>
+					<p>
+						<span>aljaxus.dev@gmail.com</span>
+					</p>
+		      		<div class="links">
+						<a href="https://scng.si" target="_blank" class="link color-red">Student at SC-NG</a>
+						<a href="https://scng.si" target="_blank" class="link color-green">Student at SC-NG</a>
+		      		</div>
+				</div>
+	    	</div>
+	  	</div>
+	</main>
+	<footer>
+	  	<div class="container">
+	    	<div class="links">
+	      		<a class="link small color-darkblue" href="https://www.linkedin.com/in/aljaz-starc-73795b16a/" target="_blank">LinkedIn</a>
+	      		<a class="link small color-discordblue" href="https://discord.aljaxus.eu" target="_blank">Discord</a>
+	      		<a class="link small color-lightblue" href="https://twitter.com/aljaxus" target="_blank">Twitter</a>
+	      		<a class="link small color-lightgray" href="https://github.com/aljaxus"target="_blank">GitHub</a>
+	    	</div>
+	  	</div>
+	</footer>
+</body>
+</html>
+<style media="screen">
+body {
+	font-family: 'Montserrat',sans-serif;
+	margin: 0 !important;
+	overflow: hidden;
+	color: #ddd;
+	height: 100vh;
+	width: 100vw;
+}
+body > * {
+	transition: all .5s;
+}
+
+
+div#particles-js {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+  	z-index: -100;
+}
+@media (max-width:599px)  {
+	div#aljazs-image {
+		display: none;
+	}
+}
+@media (min-width:600px)  {
+	div#aljazs-image {
+		position: absolute;
+		top: 0;
+		left: 50vw;
+		bottom: 0;
+		right: 0;
+	  	z-index: -90;
+	}
+	div#aljazs-image > img {
+		position: absolute;
+		top: 50%;
+		right: 5vw;
+		transform: translateY(-50%);
+		border-radius: 50%;
+		height: auto;
+		width: 25vw;
+		max-width: 450px;
+		min-width: 250px;
+	    box-shadow: 0px 11px 15px -7px rgba(0,0,0,0.4), 0px 24px 38px 3px rgba(0,0,0,0.24), 0px 9px 46px 8px rgba(0,0,0,0.22) !important;
+	}
+}
+
+
+.wrapper {
+  	z-index: 0;
+	padding-top: 5vh
+}
+nav {
+  	width: 100%;
+}
+nav .container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+    content-align: center;
+    text-align: center;
+}
+nav img.logo {
+    width: 175px;
+    height: auto;
+}
+@media (max-width:599px)  {
+	main .wrapper > .container > .content {
+		position: absolute;
+		top: 40%;
+		transform: translateY(-50%);
+		border-radius: 50%;
+		width: 90%;
+	}
+}
+@media (min-width:600px)  {
+	main .wrapper > .container > .content {
+		position: absolute;
+		top: 40%;
+		transform: translateY(-50%);
+		border-radius: 50%;
+		width: 45%;
+	}
+}
+main .wrapper > .container > .content > * {
+	position: unset;
+}
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 28px;
+    width: 100%;
+}
+main .wrapper .container,
+footer .container {
+    width: 90%;
+    max-width: 1000px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+h1,
+h2 {
+	margin: 0;
+    margin-bottom: 28px;
+    font-family: 'Roboto Slab',serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 63px;
+    color: #fff;
+}
+
+p {
+    margin: 0;
+    margin-bottom: 21px;
+}
+
+a.link {
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    color: #ecf0f1;
+}
+.links a.link:not(.small) {
+    font-weight: 700;
+	margin: 1rem 0;
+}
+.links a.link:not(.small):not(:last-child) {
+    margin-right: 35px;
+}
+a.link:not(.small):before {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 21px;
+    height: 2px;
+    background-color: #ecf0f1;
+    content: '';
+    z-index: -1;
+    display: block;
+    -webkit-transition: all .7s cubic-bezier(0.19,1,0.22,1) 75ms;
+    transition: all .7s cubic-bezier(0.19,1,0.22,1) 75ms;
+}
+a.link:not(.small):hover:before {
+    width: 100%;
+}
+
+a.link.small {
+	-webkit-transition: all .7s cubic-bezier(0.19,1,0.22,1) 75ms;
+	transition: all .7s cubic-bezier(0.19,1,0.22,1) 75ms;
+}
+a.link.small:not(:last-child) {
+    margin-right: 21px;
+}
+a.link.small:before {
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    right: 0;
+    height: 6px;
+    background-color: rgba(255,255,255,0.25) !important;
+
+    content: '';
+    z-index: -1;
+    display: block;
+    -webkit-transition: all .7s cubic-bezier(0.19,1,0.22,1) 75ms;
+    transition: all .7s cubic-bezier(0.19,1,0.22,1) 75ms;
+}
+a.link.small:hover:before {
+    bottom: -3.5px;
+    height: 2px;
+    background-color: inherit;
+	color: #ecf0f1 !important;
+}
+
+
+.color-blue:not(.small),
+.color-blue.small:hover {
+  	color: #3498db !important;
+}
+.color-blue:not(.small):before,
+.color-blue.small:hover:before{
+  	background-color: #3498db !important;
+}
+.color-darkblue:not(.small),
+.color-darkblue.small:hover {
+  	color: #0077B5 !important;
+}
+.color-darkblue:not(.small):before,
+.color-darkblue.small:hover:before{
+  	background-color: #0077B5 !important;
+}
+.color-discordblue:not(.small),
+.color-discordblue.small:hover {
+  	color: #7289da !important;
+}
+.color-discordblue:not(.small):before,
+.color-discordblue.small:hover:before{
+  	background-color: #7289da !important;
+}
+.color-gray:not(.small),
+.color-gray.small:hover {
+  	color: #2c3e50 !important;
+}
+.color-gray:not(.small):before,
+.color-gray.small:hover:before{
+  	background-color: #2c3e50 !important;
+}
+.color-green:not(.small),
+.color-green.small:hover {
+  	color: #419d78 !important;
+}
+.color-green:not(.small):before,
+.color-green.small:hover:before{
+  	background-color: #419d78 !important;
+}
+.color-lightblue:not(.small),
+.color-lightblue.small:hover {
+  	color: #1da1f2 !important;
+}
+.color-lightblue:not(.small):before,
+.color-lightblue.small:hover:before{
+  	background-color: #1da1f2 !important;
+}
+.color-lightgray:not(.small),
+.color-lightgray.small:hover {
+  	color: #646c73 !important;
+}
+.color-lightgray:not(.small):before,
+.color-lightgray.small:hover:before{
+  	background-color: #646c73 !important;
+}
+.color-orange:not(.small),
+.color-orange.small:hover {
+  	color: #f39c12 !important;
+}
+.color-orange:not(.small):before,
+.color-orange.small:hover:before{
+  	background-color: #f39c12 !important;
+}
+.color-purple:not(.small),
+.color-purple.small:hover {
+  	color: #9b59b6 !important;
+}
+.color-purple:not(.small):before,
+.color-purple.small:hover:before{
+  	background-color: #9b59b6 !important;
+}
+.color-red:not(.small),
+.color-red.small:hover {
+  	color: #d9594c !important;
+}
+.color-red:not(.small):before,
+.color-red.small:hover:before{
+  	background-color: #d9594c !important;
+}
+.color-white:not(.small),
+.color-white.small:hover {
+  	color: #ecf0f1 !important;
+}
+.color-white:not(.small):before,
+.color-white.small:hover:before{
+  	background-color: #ecf0f1 !important;
+}
+</style>
+<script type="text/javascript">
+particlesJS(
+	'particles-js',
+	{"particles":{"number":{"value":60,"density":{"enable":true,"value_area":600}},"color":{"value":"#ffffff"},"shape":{"type":"circle","stroke":{"width":0,"color":"#000000"},"polygon":{"nb_sides":5},"image":{"src":"img/github.svg","width":100,"height":100}},"opacity":{"value":0.5,"random":false,"anim":{"enable":false,"speed":1,"opacity_min":0.1,"sync":false}},"size":{"value":2,"random":true,"anim":{"enable":false,"speed":40,"size_min":0.1,"sync":false}},"line_linked":{"enable":false,"distance":150,"color":"#ffffff","opacity":0.4,"width":1},"move":{"enable":true,"speed":2,"direction":"none","random":true,"straight":false,"out_mode":"out","bounce":false,"attract":{"enable":false,"rotateX":600,"rotateY":1200}}},"interactivity":{"detect_on":"canvas","events":{"onhover":{"enable":false,"mode":"repulse"},"onclick":{"enable":false,"mode":"push"},"resize":true},"modes":{"grab":{"distance":400,"line_linked":{"opacity":1}},"bubble":{"distance":400,"size":40,"duration":2,"opacity":8,"speed":3},"repulse":{"distance":200,"duration":0.4},"push":{"particles_nb":4},"remove":{"particles_nb":2}}},"retina_detect":false},
+	function() {
+  		console.log('***************************************************');
+  		console.log('particles.js config loaded');
+	}
+);
+</script>
